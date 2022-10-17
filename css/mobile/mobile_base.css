@@ -1,0 +1,37 @@
+@media screen and (min-width: 921px) {
+    .title-buttons {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    .title {
+        justify-content: left;
+    }
+
+    .title-buttons {
+        margin: 2%;
+        font-size: 24px;
+
+    }
+
+    #foot {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        bottom: 0%;
+        background-color:rgb(0, 0, 8);
+        width: 100vw;
+        height: 12vh;
+        color: rgb(245, 245, 245);
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    #credit-text {
+        position: relative;
+        top: 15px;
+        width: 85%;
+    }
+}

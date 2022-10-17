@@ -1,0 +1,84 @@
+@media screen and (min-width: 1500px) {
+    #instagram, #facebook, #github {
+        width: 15vw;
+        height: 45vh;
+    }
+
+    .contact-wrapper {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1250) {
+    #instagram, #facebook, #github {
+        width: 20vw;
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .tiles {
+        display:flex;flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: rgb(0, 0, 8);
+        border-radius: 5px;
+        position: relative;
+        transition: .2s;
+        padding: 0;
+        font-size: 22px;
+    }
+
+    #instagram, #facebook, #github {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 90vw;
+        height: 8vh;
+        color: rgb(0, 0, 8);
+        border-radius: 25px;
+        margin: 10px;
+        transition: background-color .1s;
+        transition: transform .1s;
+        transition: box-shadow .1s;
+    }
+
+    #instagram {
+        background-image: linear-gradient(to bottom right, #3315A1, #CE125B, #F59C38);
+        border: none;
+    }
+
+    #facebook {
+        background-color: #1778F2;
+        border: none;
+    }
+
+    #github {
+        background-color: black;
+        border: none;
+    }
+
+    #instagram-title, #facebook-title, #github-title {
+        color: rgb(245, 245, 245);    
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #email-link {
+        font-size: 6vw;
+        text-decoration: solid;
+    }
+    #email-link:hover {
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    #footer {
+        padding: 15px;
+        text-align: center;
+    }
+}

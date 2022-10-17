@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+html {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Hubballi', cursive;
+    font-size: 25px;
+}  body {margin: 0px;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.title {
+    display: flex;flex-direction: row;
+    justify-content: left;
+    top: 0px; left: 0px;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    font-size: 30px;
+    background-color:rgb(0, 0, 8);
+}
+
+.title-buttons {
+    text-decoration: none;
+    color: rgb(150, 0, 150);
+    margin-left: 25px;
+    transition: .2s;
+    justify-content: space-evenly;
+}
+
+.title-buttons:hover {
+    color: rgb(245, 245, 245);
+}
+
+#logo {
+    max-width: 25vw;
+    max-height: 25vh;
+    position: inherit;
+    margin: 0; padding: 0;
+}
+
+#foot {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    background-color:rgb(0, 0, 8);
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    color: rgb(245, 245, 245);
+    padding: 10px;
+} #credit-text {position: absolute; top: 40%;}
+
+#contact-link {
+    margin-top: 45px;
+    transition:.2s;
+    text-decoration: none;
+    color:rgb(150, 0, 150);
+} 
+
+#contact-link:hover {color:rgb(245, 245, 245);}
+
+.tiles {
+    display:flex;flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: rgb(0, 0, 8);
+    border-radius: 5px;
+    position: relative;
+    transition: .2s;
+}
+
+.links {
+    text-decoration: none;
+}
+
+
+#instagram, #facebook, #github {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20vw;
+    height: 45vh;
+    color: rgb(0, 0, 8);
+    border-color: rgb(0, 0, 8);
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 100px;
+    transition: background-color .2s;
+    transition: transform .5s;
+    transition: box-shadow .5s;
+}
+
+#instagram:hover, #facebook:hover, #github:hover {
+    box-shadow: 10px 15px 25px rgba(0, 0, 8, 0.7);
+}
+
+#instagram:hover {
+    background-image: linear-gradient(to bottom right, #3315A1, #CE125B, #F59C38);
+    border: none;
+}
+#facebook:hover {
+    background-color: #1778F2;
+    color: rgb(245, 245, 245);
+    border: none;
+}
+#github:hover {
+    background-color: black;
+    color: rgb(245, 245, 245);
+    border: none;
+}
+
+#instagram:hover > #instagram-title, 
+#facebook:hover > #facebook-title, 
+#github:hover > #github-title{
+    font-size: 50px;
+    color: rgb(245, 245, 245);
+}
+
+#instagram-title, #facebook-title, #github-title {
+    transition: color .5s;
+    transition: font-size .5s;
+}
+
+.email {
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(0, 0, 8); */
+    background-image: linear-gradient(to right, #31002d, #070006, #070006, #31002d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#email-header {
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#email-link {
+    font-size: 1.5em;
+    color: rgb(245, 245, 245);
+    transition: font-size .5s;
+}
+
+#email-link:hover {
+    color: rgb(150, 0, 150);    
+    font-size: 2em;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.contact-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(0, 0, 8);
+    color: rgb(245, 245, 245);
+    bottom: 0;
+}

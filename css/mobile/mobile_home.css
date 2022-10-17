@@ -1,0 +1,48 @@
+@media screen and (max-width: 1020px) {
+
+    .title-buttons {
+        padding-top: 18vh;
+        position: relative;
+        z-index: 1;
+    }
+
+    .title {
+        height: 25vh;
+        width: 100vw;
+    }
+
+    #foot {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        bottom: 0%;
+        background-color:rgb(0, 0, 8);
+        width: 100vw;
+        height: 12vh;
+        color: rgb(245, 245, 245);
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    #credit-text {
+        position: relative;
+        top: 4px;
+        width: 85%;
+    }
+}
+@media screen and (max-width: 400px) {
+    #logo {
+        top: 2%;
+        max-width: 75vw;
+        max-height: 50vh;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) { 
+    #logo {
+        max-width: 50vw;
+        max-height: 30vh;
+    }
+}
+
+
