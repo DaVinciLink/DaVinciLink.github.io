@@ -14,6 +14,7 @@
     .title-buttons {
         margin: 2%;
         font-size: 24px;
+
     }
 
     #foot {
@@ -31,7 +32,7 @@
 
     #credit-text {
         position: relative;
-        top: 10%;
+        top: 15px;
         width: 85%;
     }
 }
