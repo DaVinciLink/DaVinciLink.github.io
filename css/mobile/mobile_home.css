@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 400px) {
     #logo {
-        top: 2%;
+        top: 1%;
         max-width: 75vw;
         max-height: 50vh;
     }
