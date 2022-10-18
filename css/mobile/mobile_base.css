@@ -8,6 +8,7 @@
 
     .title {
         justify-content: left;
+        left: 5%;
     }
 
     .title-buttons {
@@ -26,12 +27,12 @@
         height: 12vh;
         color: rgb(245, 245, 245);
         padding: 10px;
-        font-size: 22px;
+        font-size: 1.5em;
     }
 
     #credit-text {
         position: relative;
-        top: 15px;
+        top: 10%;
         width: 85%;
     }
 }

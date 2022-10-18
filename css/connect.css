@@ -83,14 +83,14 @@
 }
 
 #email-link {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: rgb(245, 245, 245);
     transition: font-size .5s;
 }
 
 #email-link:hover {
     color: rgb(150, 0, 150);    
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .contact-wrapper {
