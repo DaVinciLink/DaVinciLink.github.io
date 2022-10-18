@@ -26,7 +26,7 @@
 
     #credit-text {
         position: relative;
-        top: 4px;
+        top: 50%;
         width: 85%;
     }
 }
